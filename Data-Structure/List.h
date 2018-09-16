@@ -15,11 +15,18 @@ template <typename T>
 class List
 {
 public:
+	List(const List& list)
+	{
+		
+	};
 	List()
 		:
 		mListHead(nullptr)
 	{};
-	~List() = default;
+	~List()
+	{
+		
+	};
 	bool InitList()
 	{
 		return true;
