@@ -15,7 +15,7 @@ int main()
 	list.ListInsert("5hello");
 	list.ListInsert("2.5hello", 6);
 
-	cout << "Length" << list.ListLength() << endl;
+	cout << "Length:" << list.ListLength() << endl;
 	for (size_t i = 0; i < list.ListLength(); i++)
 	{
 		cout << list.GetElem(i)->data << endl;

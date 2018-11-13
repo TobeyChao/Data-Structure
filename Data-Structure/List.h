@@ -17,7 +17,7 @@ class List
 public:
 	List(const List& list)
 	{
-		
+
 	};
 	List()
 		:
@@ -25,7 +25,7 @@ public:
 	{};
 	~List()
 	{
-		
+
 	};
 	bool InitList()
 	{
