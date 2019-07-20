@@ -12,18 +12,18 @@ struct ListNode
 };
 
 template <typename T>
-class List
+class MyList
 {
 public:
-	List(const List& list)
+	MyList(const MyList& list)
 	{
 
 	};
-	List()
+	MyList()
 		:
 		mListHead(nullptr)
 	{};
-	~List()
+	~MyList()
 	{
 
 	};
